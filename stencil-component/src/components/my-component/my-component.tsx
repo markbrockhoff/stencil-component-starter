@@ -1,4 +1,4 @@
-import { Component, Prop, h } from '@stencil/core';
+import { Component, Prop, h, ComponentInterface, Host } from '@stencil/core';
 import { format } from '../../utils/utils';
 
 @Component({
@@ -6,7 +6,7 @@ import { format } from '../../utils/utils';
   styleUrl: 'my-component.css',
   shadow: true,
 })
-export class MyComponent {
+export class MyComponent implements ComponentInterface {
   /**
    * The first name
    */
@@ -27,6 +27,6 @@ export class MyComponent {
   }
 
   render() {
-    return <div>Hello, World! I'm {this.getText()}</div>;
+    return <Host><div>Hello, World! I'm {this.getText()}</div></Host>;
   }
 }

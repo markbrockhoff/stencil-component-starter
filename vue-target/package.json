@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "prebuild": "npm link stencil-starter-project-name",
     "build": "npm run clean && npm run compile && npm run bundle",
     "bundle": "rollup --config rollup.config.js",
     "clean": "rimraf dist dist-transpiled",
