@@ -1,6 +1,7 @@
 dist/
 www/
 loader/
+vue-target/
 
 *~
 *.sw[mnpcod]
