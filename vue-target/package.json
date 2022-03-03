@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "prebuild": "npm link stencil-starter-project-name",
+    "prebuild": "npm link stencil-starter-project-vue-demo",
     "build": "npm run clean && npm run compile && npm run bundle",
     "bundle": "rollup --config rollup.config.js",
     "clean": "rimraf dist dist-transpiled",

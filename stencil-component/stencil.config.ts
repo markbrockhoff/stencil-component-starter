@@ -2,7 +2,7 @@ import { Config } from '@stencil/core';
 import { vueOutputTarget } from '@stencil/vue-output-target';
 
 export const config: Config = {
-  namespace: 'stencil-starter-project-name',
+  namespace: 'stencil-starter-project-vue-demo',
   buildEs5: 'prod',
   extras: {
     tagNameTransform: true,
@@ -28,7 +28,7 @@ export const config: Config = {
       serviceWorker: null, // disable service workers
     },
     vueOutputTarget({
-      componentCorePackage: 'stencil-starter-project-name',
+      componentCorePackage: 'stencil-starter-project-vue-demo',
       proxiesFile: '../vue-target/src/proxies.ts',
       includeDefineCustomElements: false,
       includePolyfills: false,
