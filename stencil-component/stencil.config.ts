@@ -19,8 +19,8 @@ export const config: Config = {
       serviceWorker: null, // disable service workers
     },
     vueOutputTarget({
-      componentCorePackage: 'stencil-starter-project-name',
-      proxiesFile: 'vue-target/src/proxies.ts',
+      componentCorePackage: '../../stencil-component/dist/types/index', // Small trick so the build package does not have to be linked to vue-target
+      proxiesFile: '../vue-target/src/proxies.ts',
       includeDefineCustomElements: false,
       includePolyfills: false,
     }),
