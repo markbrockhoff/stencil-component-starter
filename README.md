@@ -22,5 +22,5 @@ export interface InputProps extends Object {
 }
 ```
 
-Then go into the directory vue-app an run npm run build again.
+Then go into the directory vue-app an run `npm run build` again.
 You will see, that the error is gone.
