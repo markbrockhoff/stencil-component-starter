@@ -10,7 +10,7 @@ bash ./demo.sh
 ```
 
 This will install all dependencies and build everything.
-At the end you will see the error Property 'modelValue' is missing in type..." as described in the [issue](https://github.com/ionic-team/stencil-ds-output-targets/issues/233).
+At the end you will see the error "Property 'modelValue' is missing in type..." as described in the [issue](https://github.com/ionic-team/stencil-ds-output-targets/issues/233).
 
 ## Fixing the problem
 
